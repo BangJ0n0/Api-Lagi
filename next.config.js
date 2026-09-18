@@ -15,7 +15,7 @@ const {
   createSecureHeaders
 } = require("next-secure-headers");
 const apiConfig = {
-  DOMAIN_URL: "wudysoft.my.id"
+  DOMAIN_URL: "api-ku.zone.id"
 };
 const securityHeaders = [...createSecureHeaders({
   frameGuard: "deny",
